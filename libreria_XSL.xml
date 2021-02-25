@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> <!--Comentarios-->
+<?xml-stylesheet type="text/xsl" href="libreria.xsl"?>
+<libreria>
+    <libro>
+        <titulo>El Último de la fila</titulo>
+        <autor>Manolo García</autor>
+        <editor>Reproduciones DJS</editor>
+        <isbn>978-5258746856</isbn>
+        <precio>20.71</precio>
+        <numPaginas>150</numPaginas>
+    </libro>
+    <libro>
+        <titulo>Mapas</titulo>
+        <autor>Vetusta Morla</autor>
+        <editor>Anaya</editor>
+        <isbn>125-5457283165</isbn>
+        <precio>31.21</precio>
+        <numPaginas>190</numPaginas>
+    </libro>
+    <libro>
+        <titulo>Iros todos a tomar por culo</titulo>
+        <autor>Extremoduro</autor>
+        <editor>Producciones Mañas</editor>
+        <isbn>432-4541749562</isbn>
+        <precio>19.25</precio>
+        <numPaginas>250</numPaginas>
+    </libro>
+    <libro>
+        <titulo>Delparaiso</titulo>
+        <autor>Juan Del Val</autor>
+        <editor>Espasa</editor>
+        <isbn>462-7823143254</isbn>
+        <precio>9.78</precio>
+        <numPaginas>340</numPaginas>
+    </libro>
+    <libro>
+        <titulo>Arquitania</titulo>
+        <autor>Eva García</autor>
+        <editor>Editorial Planeta</editor>
+        <isbn>142-7821589562</isbn>
+        <precio>10.15</precio>
+        <numPaginas>650</numPaginas>
+    </libro>
+    <libro>
+        <titulo>Miss Marte</titulo>
+        <autor>Manuel Jabois</autor>
+        <editor>Alfaguara</editor>
+        <isbn>392-7879879262</isbn>
+        <precio>10.40</precio>
+        <numPaginas>170</numPaginas>
+    </libro>
+</libreria>
