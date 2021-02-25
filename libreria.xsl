@@ -6,7 +6,7 @@ xmlns:xsl= "http://www.w3.org/1999/XSL/Transform">
             <body>
                 <h1>Mi Biblioteca Personal</h1>
                 <table>
-                    <tr bgcolor="a9e3a3">
+                    <tr bgcolor="a9e3c3">
                         <th>ISBN</th>
                         <th>Titulo</th>
                         <th>Autor</th>
