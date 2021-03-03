@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?> <!--Comentarios-->
-<?xml-stylesheet type="text/xsl" href="libreria.xsl"?>
+<?xml-stylesheet type="text/xsl" href="libreria_5.5.xsl"?>
 <libreria>
     <libro>
         <titulo>El Último de la fila</titulo>
@@ -30,7 +30,7 @@
         <autor>Juan Del Val</autor>
         <editor>Espasa</editor>
         <isbn>462-7823143254</isbn>
-        <precio>9.78</precio>
+        <precio>09.78</precio>
         <numPaginas>340</numPaginas>
     </libro>
     <libro>
@@ -42,11 +42,51 @@
         <numPaginas>650</numPaginas>
     </libro>
     <libro>
+        <titulo>El Móvil</titulo>
+        <autor>Álvaro García</autor>
+        <editor>Editorial Planeta</editor>
+        <isbn>142-7821581242</isbn>
+        <precio>10.15</precio>
+        <numPaginas>150</numPaginas>
+    </libro>
+    <libro>
+        <titulo>La única manera</titulo>
+        <autor>Álvaro García</autor>
+        <editor>Editorial Planeta</editor>
+        <isbn>142-7821581242</isbn>
+        <precio>12.15</precio>
+        <numPaginas>150</numPaginas>
+    </libro>
+    <libro>
+        <titulo>Los Otros</titulo>
+        <autor>Eva García</autor>
+        <editor>Editorial Planeta</editor>
+        <isbn>142-7821581242</isbn>
+        <precio>12.15</precio>
+        <numPaginas>150</numPaginas>
+    </libro>
+    <libro>
         <titulo>Miss Marte</titulo>
         <autor>Manuel Jabois</autor>
         <editor>Alfaguara</editor>
         <isbn>392-7879879262</isbn>
         <precio>10.40</precio>
+        <numPaginas>170</numPaginas>
+    </libro>
+    <libro>
+        <titulo>Al Norte</titulo>
+        <autor>Francisco José Laure</autor>
+        <editor>Alfaguara</editor>
+        <isbn>392-7879879262</isbn>
+        <precio>10.50</precio>
+        <numPaginas>170</numPaginas>
+    </libro>
+    <libro>
+        <titulo>Roma</titulo>
+        <autor>Francisco José Laure</autor>
+        <editor>Alfaguara</editor>
+        <isbn>392-7879879262</isbn>
+        <precio>60.50</precio>
         <numPaginas>170</numPaginas>
     </libro>
 </libreria>
