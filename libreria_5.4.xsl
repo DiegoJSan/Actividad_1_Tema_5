@@ -22,6 +22,12 @@ xmlns:xsl= "http://www.w3.org/1999/XSL/Transform">
                                     <td bgcolor= "#ff0000">
                                         <xsl:value-of select="autor"/>
                                     </td>
+                                    <td bgcolor= "#ff0000">
+                                        <xsl:value-of select="isbn"/>
+                                    </td>
+                                    <td bgcolor= "#ff0000">
+                                        <xsl:value-of select="precio"/>
+                                    </td>
                                 </xsl:when>
                                 <xsl:when test = "precio &gt; 25.5">
                                     <td bgcolor= "#00ff00">
@@ -29,6 +35,12 @@ xmlns:xsl= "http://www.w3.org/1999/XSL/Transform">
                                     </td>
                                     <td bgcolor= "#00ff00">
                                         <xsl:value-of select="autor"/>
+                                    </td>
+                                    <td bgcolor= "#00ff00">
+                                        <xsl:value-of select="isbn"/>
+                                    </td>
+                                    <td bgcolor= "#00ff00">
+                                        <xsl:value-of select="precio"/>
                                     </td>
                                 </xsl:when>
                                 <xsl:otherwise>
@@ -38,10 +50,14 @@ xmlns:xsl= "http://www.w3.org/1999/XSL/Transform">
                                     <td bgcolor= "#0000ff">
                                         <xsl:value-of select="autor"/>
                                     </td>
+                                    <td bgcolor= "#0000ff">
+                                        <xsl:value-of select="isbn"/>
+                                    </td>
+                                    <td bgcolor= "#0000ff">
+                                        <xsl:value-of select="precio"/>
+                                    </td>
                                 </xsl:otherwise>
                             </xsl:choose>
-                            <td><xsl:value-of select="isbn"/></td>
-                            <td><xsl:value-of select="precio"/></td>
                         </tr>
                     </xsl:for-each>
                 </table>
