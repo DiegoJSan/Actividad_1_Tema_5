@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
 <xsl:stylesheet version="1.0"
 xmlns:xsl= "http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
@@ -12,7 +12,7 @@ xmlns:xsl= "http://www.w3.org/1999/XSL/Transform">
                         <th>Autor</th>
                         <th>Precio</th>
                     </tr>
-                    <xsl:for-each select="libreria/libro[autor!='Eva García']">
+                    <xsl:for-each select="libreria/libro[autor!='Álvaro García']">
                     <xsl:sort select= "precio"/>
                         <tr>
                             <td><xsl:value-of select="isbn"/></td>
