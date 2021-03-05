@@ -12,14 +12,16 @@ xmlns:xsl= "http://www.w3.org/1999/XSL/Transform">
                         <th>Autor</th>
                         <th>Precio</th>
                     </tr>
-                    <xsl:for-each select="libreria/libro[autor!='Álvaro García']">
+                    <xsl:for-each select="libreria/libro">
                     <xsl:if test="precio &gt;12">
+                        <xsl:if test="autor = 'Álvaro García'">
                         <tr>
                             <td><xsl:value-of select="isbn"/></td>
                             <td><xsl:value-of select="titulo"/></td>
                             <td><xsl:value-of select="autor"/></td>
                             <td><xsl:value-of select="precio"/></td>
                         </tr>
+                        </xsl:if>
                     </xsl:if>
                     </xsl:for-each>
                 </table>

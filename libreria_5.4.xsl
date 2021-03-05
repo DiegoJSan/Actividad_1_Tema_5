@@ -17,7 +17,8 @@ xmlns:xsl= "http://www.w3.org/1999/XSL/Transform">
                             <xsl:choose>
                                 <xsl:when test = "precio &lt; 12.5">
                                     <td bgcolor= "#ff0000">
-                                        <xsl:value-of select="titulo"/>
+                                        <xsl:value-of
+                                         select="titulo"/>
                                     </td>
                                     <td bgcolor= "#ff0000">
                                         <xsl:value-of select="autor"/>
